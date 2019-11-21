@@ -50,20 +50,19 @@ Things you may want to cover:
 ### Association
 - has_many :messages
 - has_many :groups, through: :gruops_users
+- belongs_to :groups_usres
 
 
 ## groupsテーブル
 
 |Column|Type|Options|
 |------|----|-------|
-|group_name|string|null: false|
-|member|string||
-|user_id|integer|null: fale, foreign_key: true|
+|name|string|null: false|
 
 ### Association
 - has_many :messages
-- has_many :groups
 - has_many :users, :through: :groups_users
+- belongs_to :groups_users
 
 
 ## groups_usersテーブル
