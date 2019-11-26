@@ -1,0 +1,22 @@
+.chat-side
+  .chat-side__side-header
+    .chat-side__side-header__box
+      .chat-side__side-header__box__user-name
+        seo 
+      .chat-side__side-header__box__menu  
+        .chat-side__side-header__box__menu__new-group
+          =link_to "#" do
+            =icon('fas', 'edit', class: 'pen')
+        .chat-side__side-header__box__menu__edit-user   
+          =link_to "#" do
+            =icon('fas', 'cog', class: 'haguruma')
+
+  .groups
+    .groups__group
+      .groups__group__group-name
+        グループ
+      .groups__group__latest-message
+        まだメッセージはありません 
+  
+
+    

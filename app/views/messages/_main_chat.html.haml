@@ -1,0 +1,30 @@
+.chat-main
+  .chat-main__main-header
+    .chat-main__main-header__left-box
+      .chat-main__main-header__left-box__current-group
+        グループ
+
+      .chat-main__main-header__left-box__member-list
+        Member :  
+        .chat-main__main-header__left-box__member-list__member
+          tarou
+    .chat-main__main-header__edit-btn
+      Edit
+
+  .chat-main__messages
+    .chat-main__messages__message
+      .chat-main__messages__message__upper-info
+        .chat-main__messages__message__upper-info__talker
+          seo
+        .chat-main__messages__message__upper-info__date
+          2019/11/26(thu)　21:00:00
+      .chat-main__messages__message__text  
+        楽しい 
+  .chat-main__form
+    .chat-main__form__box
+      %input.chat-main__form__box__type-a-message{ placeholder: "type-a-message"}
+      %label.chat-main__form__box__label
+        =icon('fas', 'image', class: 'img')
+        %input.hidden{type: 'file'}
+      .chat-main__form__box__send
+        send
