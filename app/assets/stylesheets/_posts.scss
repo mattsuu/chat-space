@@ -157,6 +157,9 @@
       padding: 15px 40px;
       justify-content: space-between;
       position: relative;
+      .new_message {
+        display: flex;
+      }
       &__type-a-message {
         padding-left: 10px;
         font-size: 16px;
