@@ -114,19 +114,23 @@
       margin-top: 28px;
       margin-right: 40px;
       padding: 0 20px;
+      .edit {
+        text-decoration: none;
+      }
     }
   }
   &__messages {
     margin-top: 46px;
     margin-left: 40px;
     overflow: scroll;
+    height: calc(100% - 230px);
   
-    &__message {
+    .message {
 
-      &__upper-info {
+      .upper-message {
         display: flex;
 
-        &__talker {
+        &__user-name {
           font-size: 16px;
           font-weight: bold;
           color: $gray;
@@ -137,7 +141,7 @@
           padding-left: 10px;
         }
       }
-      &__text {
+      .lower-message {
         padding-top: 10px;
         font-size: 14px;
         color: $gray;
@@ -159,12 +163,13 @@
       position: relative;
       .new_message {
         display: flex;
+        width: 100%;
       }
       &__type-a-message {
         padding-left: 10px;
         font-size: 16px;
         color: $gray;
-        width: 1000px;
+        width: 100%;
 
 
       }
