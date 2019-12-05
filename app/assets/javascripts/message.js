@@ -65,7 +65,7 @@ $(function(){
         $('.chat-main__messages').animate({ scrollTop: $('.chat-main__messages')[0].scrollHeight});
       })
       .fail(function() {
-        console.log('error');
+        console.log('alert');
       });
     };
     var path = location.href;
