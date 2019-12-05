@@ -73,6 +73,6 @@ $(function(){
       setInterval(reloadMessages, 7000);
     }else{
       alert("error")
-    }
+    };
 });
 
