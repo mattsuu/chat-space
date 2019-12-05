@@ -65,13 +65,13 @@ $(function(){
         $('.chat-main__messages').animate({ scrollTop: $('.chat-main__messages')[0].scrollHeight});
       })
       .fail(function() {
-        console.log('alert');
+        alert
       });
     };
     var path = location.href;
     if(path.match(/\/groups\/\d+\/messages/)){
       setInterval(reloadMessages, 5000);
     }else{
-      console.log('error');
+      error
     }
 });
