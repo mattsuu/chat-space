@@ -72,7 +72,7 @@ $(function(){
     if(path.match(/\/groups\/\d+\/messages/)){
       setInterval(reloadMessages, 7000);
     }else{
-      alert("error")
+      clearIntarval(reloadMessages);
     };
 });
 
