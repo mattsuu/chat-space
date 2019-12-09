@@ -71,8 +71,6 @@ $(function(){
     var path = location.href;
     if(path.match(/\/groups\/\d+\/messages/)){
       setInterval(reloadMessages, 7000);
-    }else{
-      clearIntarval(reloadMessages);
     };
 });
 
