@@ -65,8 +65,8 @@ gem 'haml-rails'
 gem 'font-awesome-sass'
 gem 'devise'
 gem 'carrierwave'
-gem 'fog-aws'
 gem 'mini_magick'
+gem 'fog-aws'
 group :production do
   gem 'unicorn', '5.4.1'
 end
